@@ -95,4 +95,11 @@ img {
 .stage .scene-righticon {
   font-size: 180px;
   color: green;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*Scene B*/
+.img-afleveret {
+  max-height: 500px;
+}
+
+/*Tablet & mobil*//*# sourceMappingURL=style.css.map */
