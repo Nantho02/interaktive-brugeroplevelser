@@ -93,6 +93,25 @@ img{
     }
 
 
+    .scene-result{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .scene-icon{
+        font-size: 180px;
+        color: red;
+    }
+
+    .scene-righticon{
+        font-size: 180px;
+        color: green;
+    }
+
+
+
 }
 
 

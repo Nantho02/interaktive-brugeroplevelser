@@ -82,4 +82,17 @@ img {
   border-radius: 30px;
   background-color: #EEEBDA;
   color: #282B4A;
+}
+.stage .scene-result {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.stage .scene-icon {
+  font-size: 180px;
+  color: red;
+}
+.stage .scene-righticon {
+  font-size: 180px;
+  color: green;
 }/*# sourceMappingURL=style.css.map */
