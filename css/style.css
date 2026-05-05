@@ -1,0 +1,85 @@
+/*Variabler*/
+/*Mixins til knapper og btn*/
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  background-color: #282B4A;
+  font-family: sans-serif;
+  color: #EEEBDA;
+  /*nesting*/
+}
+body p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #EEEBDA;
+}
+body h1, body h2, body h3, body h4 {
+  font-weight: 600;
+  color: #EEEBDA;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*forside*/
+.banner-foto {
+  width: 100%;
+  height: 400px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro {
+  margin: 0;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.intro h1 {
+  font-size: 50px;
+}
+.intro h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn-big {
+  background-color: #EEEBDA;
+  padding: 1em 3em;
+  color: #282B4A;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+/*Scener*/
+.stage {
+  display: none;
+}
+.stage.active {
+  display: block;
+}
+.stage .scene {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 2rem;
+}
+.stage .btn-small {
+  padding: 0.5em 2em;
+  font-size: 18px;
+  margin-top: 20px;
+  display: flex;
+  border-radius: 30px;
+  background-color: #EEEBDA;
+  color: #282B4A;
+}/*# sourceMappingURL=style.css.map */
