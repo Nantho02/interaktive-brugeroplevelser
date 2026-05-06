@@ -18,7 +18,8 @@
                 <div class="intro">
                     <h1>Kan du spotte phishing?</h1>
                     <h2>Du er studerende på IBA erhversakadami og får en mistænkelig SMS. Dine valg afgør, hvad der sker.</h2>
-                    <a class="btn-big" href="#">Start scenarie</a>
+
+                    <button class="btn btn-big">Start scenarie</button>
                 </div>
         </section>
 
@@ -39,14 +40,14 @@
                          <h3>Du har lige afleveret din opgave på Wiseflow, da du modtager en SMS.</h3>
                          <p>“Det haster..Men jeg synes ikke jeg plejer at få SMSer om det her?”</p>
 
-                         <button class="btn-small">Jeg åbner linket for at få det overstået hurtigt</button>
-                         <button class="btn-small">Jeg prøver selv at finde ud af det via Wiseflow</button>
+                         <button class="btn btn-small">Jeg åbner linket for at få det overstået hurtigt</button>
+                         <button class="btn btn-small">Jeg prøver selv at finde ud af det via Wiseflow</button>
                       </div>
                  </div>
         </section>
 
         <!--Scene A-->
-        <section class="stage">
+        <section class="stage" id="scene-a">
             <img class="banner-foto" src="img/banner.jpg" alt="">
                 <div class="intro">
                     <h1>Kan du spotte phishing?</h1>
@@ -62,8 +63,8 @@
                          <h3>Du klikker på linket og bliver sendt videre til en login-side.</h3>
                          <p>“Okay..Det ligner jo Wiseflow.”</p>
 
-                         <button class="btn-small">Jeg logger ind, så jeg kan få afleveret hurtigt</button>
-                         <button class="btn-small">Jeg gennemgår lige siden, inden jeg logger ind</button>
+                         <button class="btn btn-small">Jeg logger ind, så jeg kan få afleveret hurtigt</button>
+                         <button class="btn btn-small">Jeg gennemgår lige siden, inden jeg logger ind</button>
                       </div>
                  </div>
         </section>
@@ -86,8 +87,8 @@
                          <h3>Du logger ind på siden, for at aflevere din aflevering.</h3>
                          <p>“Hvad er det her nu? Er der sket en fejl?”</p>
 
-                         <button class="btn-small">Jeg prøver igen og logger ind igen</button>
-                         <button class="btn-small">Jeg går ind på Wiseflow og tjekker det derinde</button>
+                         <button class="btn btn-small">Jeg prøver igen og logger ind igen</button>
+                         <button class="btn btn-small">Jeg går ind på Wiseflow og tjekker det derinde</button>
                       </div>
                  </div>
         </section>
@@ -106,7 +107,7 @@
                          <h2>Du er blevet hacket!</h2>
                          <p>Du prøver igen og indtaster dine oplysninger endnu en gang. Hackeren har nu dine login-oplysninger.</p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -125,7 +126,7 @@
                          <h2>Du er blevet hacket!</h2>
                          <p>Du går ind på Wiseflow, men det er for sent. Du har allerede indtastet dine oplysninger på en falsk side. </p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -148,8 +149,8 @@
                          <h3>Du gennemgår siden, inden du fortsætter. </h3>
                          <p>“Jeg synes at der er flere stavefejl, og mærkelig formulering. Men hvad nu hvis det er rigtigt?”</p>
 
-                         <button class="btn-small">Jeg kontakter en underviser, for at være sikker</button>
-                         <button class="btn-small">Jeg prøver at logge ind for at se hvad der sker</button>
+                         <button class="btn btn-small">Jeg kontakter en underviser, for at være sikker</button>
+                         <button class="btn btn-small">Jeg prøver at logge ind for at se hvad der sker</button>
                       </div>
                  </div>
         </section>
@@ -168,7 +169,7 @@
                          <h2>Du undgik phishing!</h2>
                          <p>Din underviser bekræfter, at beskeden er falsk. Derfor undgik du at give dine oplysninger til en falsk side. </p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -187,7 +188,7 @@
                          <h2>Du er blevet hacket!</h2>
                          <p>Du indtaster dine oplysninger på en falsk side. Hackeren har nu dine login-oplysninger.</p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -210,8 +211,8 @@
                          <h3>Du logger ind på Wiseflow via Google.</h3>
                          <p>“Jeg logger ind men jeg kan ikke se nogle problemer? Opgaven står jo som afleveret.”</p>
 
-                         <button class="btn-small">Jeg lukker siden og ignorerer SMSen</button>
-                         <button class="btn-small">Jeg går tilbage til SMSen</button>
+                         <button class="btn btn-small">Jeg lukker siden og ignorerer SMSen</button>
+                         <button class="btn btn-small">Jeg går tilbage til SMSen</button>
                       </div>
                  </div>
         </section>
@@ -230,7 +231,7 @@
                          <h2>Du undgik phishing!</h2>
                          <p> Du tjekkede Wiseflow og kunne se, at din aflevering allerede var registeret. Du valgte derfor ikke at reagere på SMS’en, da den virkede mistænkelig. </p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -253,8 +254,8 @@
                          <h3>Du går tilbage til SMSen. </h3>
                          <p>“Hmm..Det virker lidt underligt, men det haster jo?”</p>
 
-                         <button class="btn-small">Jeg trykker på linket og logger ind</button>
-                         <button class="btn-small">Jeg kontakter en underviser, for at være sikker</button>
+                         <button class="btn btn-small">Jeg trykker på linket og logger ind</button>
+                         <button class="btn btn-small">Jeg kontakter en underviser</button>
                       </div>
                  </div>
         </section>
@@ -277,14 +278,14 @@
                          <h3>Du logger ind på siden, for at aflevere din aflevering.</h3>
                          <p>“Hvad er det her nu? Er der sket en fejl?”</p>
 
-                         <button class="btn-small">Jeg prøver igen og logger ind igen</button>
-                         <button class="btn-small">Jeg går ind på Wiseflow og tjekker det derinde</button>
+                         <button class="btn btn-small">Jeg prøver igen igen og logger ind igen</button>
+                         <button class="btn btn-small">Jeg går ind på Wiseflow og tjekker det</button>
                       </div>
                  </div>
         </section>
 
 
-        <!--Scene B1AA-->
+        <!--Scene B2AA-->
          <section class="stage">
             <img class="banner-foto" src="img/banner.jpg" alt="">
                 
@@ -297,13 +298,13 @@
                          <h2>Du er blevet hacket!</h2>
                          <p>Du prøver igen og indtaster dine oplysninger endnu en gang. Hackeren har nu dine login-oplysninger.</p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
 
 
-        <!--Scene B1AB-->
+        <!--Scene B2AB-->
          <section class="stage">
             <img class="banner-foto" src="img/banner.jpg" alt="">
 
@@ -316,7 +317,7 @@
                          <h2>Du er blevet hacket!</h2>
                          <p>Du går ind på Wiseflow, men det er for sent. Du har allerede indtastet dine oplysninger på en falsk side. </p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
@@ -335,7 +336,7 @@
                          <h2>Du undgik phishing!</h2>
                          <p>Din underviser bekræfter, at beskeden er falsk. Derfor undgik du at give dine oplysninger til en falsk side. </p>
 
-                         <button class="btn-big">Start igen</button>
+                         <button class="btn btn-big" data-answar="restart">Start igen</button>
                       </div>
                  </div>
         </section>
