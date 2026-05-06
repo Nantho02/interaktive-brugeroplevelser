@@ -7,7 +7,7 @@ $dark-text: #282B4A;
 $font: sans-serif;
 
 
-/*Mixins til knapper og btn*/
+/*Mixins til knapper*/
 
 @mixin btn($bgColor: $primaryColor, $btnPadding: 0.8em 1em){
     background-color: $primaryColor;

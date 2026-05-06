@@ -124,3 +124,72 @@ img{
 
 
 /*Tablet & mobil*/
+
+@media screen and (max-width:900px){
+
+
+    .banner-foto{
+        object-fit: cover;
+        height: 220px;
+    }
+
+    .intro {
+        padding: 1.5rem;
+        gap: 10px;
+
+        h1{
+        font-size: 35px;
+        text-align: center;
+        }
+
+         h2{
+        font-size: 18px;
+        text-align: center;
+        }
+     }
+
+     .scene-text{
+        text-align: center;
+
+        h3{
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        .btn-small{
+            width: 100%;
+            font-size: 15px;
+            margin-top: 12px;
+            justify-content: center;
+            text-align: center;
+        }
+
+
+    }
+
+    .scene{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 1rem;
+
+    }
+
+    .scene-img{
+        width: 90%;
+        max-width: 320px;
+        display: block;
+        margin: auto;
+    }
+
+    
+
+   
+
+
+
+
+}

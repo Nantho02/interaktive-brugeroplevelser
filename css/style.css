@@ -1,5 +1,5 @@
 /*Variabler*/
-/*Mixins til knapper og btn*/
+/*Mixins til knapper*/
 body {
   box-sizing: border-box;
   margin: 0;
@@ -102,4 +102,51 @@ img {
   max-height: 500px;
 }
 
-/*Tablet & mobil*//*# sourceMappingURL=style.css.map */
+/*Tablet & mobil*/
+@media screen and (max-width: 900px) {
+  .banner-foto {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 220px;
+  }
+  .intro {
+    padding: 1.5rem;
+    gap: 10px;
+  }
+  .intro h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .intro h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .scene-text {
+    text-align: center;
+  }
+  .scene-text h3 {
+    font-size: 18px;
+  }
+  .scene-text p {
+    font-size: 15px;
+  }
+  .scene-text .btn-small {
+    width: 100%;
+    font-size: 15px;
+    margin-top: 12px;
+    justify-content: center;
+    text-align: center;
+  }
+  .scene {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+  }
+  .scene-img {
+    width: 90%;
+    max-width: 320px;
+    display: block;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
